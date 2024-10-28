@@ -2,7 +2,7 @@ import sys
 from gradio_client import Client
 import time
 
-yourHFtoken = "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"
+yourHFtoken = ""
 
 repo = 'Qwen/Qwen1.5-110B-Chat-demo'
 
