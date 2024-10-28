@@ -1,8 +1,9 @@
 import sys
 from gradio_client import Client
 import time
+import os
 
-yourHFtoken = ""
+yourHFtoken = os.getenv('HFToken')
 
 repo = 'Qwen/Qwen1.5-110B-Chat-demo'
 
